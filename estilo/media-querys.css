@@ -25,8 +25,13 @@
         padding: 20px 0px;
     }
 
+    form > .campo > input{
+        width: 290px;
+    }
+
+
     form > input[type=submit]{
-        
+        margin-top: 30px;
     }
 
     section#login > div#imagem{
@@ -40,7 +45,11 @@
         width: 50%;
         height: 100%;
         overflow: hidden;
-        padding-top: 60px;
+        padding-top: 40px;
+        position: relative;
+        left: -50%;
+        bottom: 50%;
+        transform: translate(110%, 50%);
     }
     
 }
@@ -57,6 +66,26 @@
         width: 950px;
         overflow: hidden;
     }
+
+    div#formulario > p{
+        font-size: 1em;
+        padding-bottom: 5px;
+    }
+
+    div#formulario > h1{
+        font-size: 1.5em;
+        padding: 20px 0px;
+        margin-top: 40px;
+    }
+
+    form > .campo > input{
+        width: 343px;
+    }
+
+    form > input[type=submit]{
+        margin-top: 30px;
+    }
+
     section#login > div#imagem{
         float: right;
         width: 50%;
@@ -66,6 +95,9 @@
         float: left;
         width: 40%;
         height: 100%;
+        position: relative;
+        left: 4%;
+        
     }
     
 
